@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0; 
+    height: 100vh; 
+}
+  main {
+    display: flex;
+    flex-direction: row;
+    flex: auto; 
+  }
+  
+  article {
+    flex: 2; 
+    overflow-y: auto; /
+  }
+  aside {
+    flex: 1; 
+    overflow-y: auto; 
+  }
+  header,
+  footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #f4f4f4; 
+    border: 1px solid #ccc; /
+  }
+  article,
+  aside {
+    padding: 10px;
+    border: 1px solid #ccc; 
+  }
+  
+  main {
+    gap: 10px; 
+  }
+  
